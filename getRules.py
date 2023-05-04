@@ -28,7 +28,7 @@ for file, url in sources_dic.items():
       f.write(f"  \"name\": \"{file}\",\n")
       f.write(f"  \"process\": \"any\",\n")
       f.write(f"  \"denied-remote-notes\": \"Retrieved on {iso_time} from list {file}\",\n")
-      f.write(f"  \"denied-remote-domains\": [\n")
+      f.write(f"  \"denied-remote-domains\": [")
 
       for i, match in enumerate(matches):
          # 這裡可以過濾掉不需要的 ip
@@ -37,7 +37,7 @@ for file, url in sources_dic.items():
             match = '"' + match + '"'
             if i != len(matches) - 1:
                match = match + ','
-            f.write(f"    {match}\n")
+            f.write(f"    {match}")
 
       f.write("  ]\n")
-      f.write("}\n")
+      f.write("}")
