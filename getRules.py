@@ -37,7 +37,7 @@ for file, url in sources_dic.items():
             match = '"' + match + '"'
             if i != len(matches) - 1:
                match = match + ','
-            f.write(f"    {match}")
+            f.write(f"{match}")
 
-      f.write("  ]\n")
+      f.write("]\n")
       f.write("}")
