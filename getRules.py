@@ -26,8 +26,8 @@ for file, url in sources_dic.items():
       f.write("{\n")
       f.write(f"  \"description\": \"Generated from {url}\",\n")
       f.write(f"  \"name\": \"{file}\",\n")
-      f.write(
-          f"  \"denied-remote-notes\": \"Retrieved on {iso_time} from list {file}\",\n")
+      f.write(f"  \"process\": \"any\",\n")
+      f.write(f"  \"denied-remote-notes\": \"Retrieved on {iso_time} from list {file}\",\n")
       f.write(f"  \"denied-remote-domains\": [\n")
 
       for i, match in enumerate(matches):
