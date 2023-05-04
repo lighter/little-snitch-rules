@@ -1,6 +1,7 @@
 {
   "name": "unified.lsrules",
   "description": "Generated from https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+  "process": "any",
   "denied-remote-notes": "Retrieved on 2023-05-04T09:56:07Z from list unified.lsrules",
   "denied-remote-domains": ["ck.getcookiestxt.com","eu1.clevertap-prod.com"]
 }
