@@ -2,7 +2,7 @@
   "description": "Generated from https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
   "name": "unified",
   "process": "any",
-  "denied-remote-notes": "Retrieved on 2023-10-16T03:11:09Z from list unified 1",
+  "denied-remote-notes": "Retrieved on 2023-10-16T03:17:42Z from list unified 1",
   "denied-remote-domains": [
     "ck.getcookiestxt.com",
     "eu1.clevertap-prod.com",
